@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Homework_Module_5
 {
@@ -55,7 +52,7 @@ namespace Homework_Module_5
                 Console.WriteLine($"The bonus of the year {i} will be = {((moneyDeposit * 20) / 100)}");
                 moneyDeposit = totalAmmount + ((moneyDeposit*20)/100);
                 Console.WriteLine($"Your deposit after {i} year will be = {moneyDeposit}\n");
-                //Console.WriteLine($"and the bonus will be = {((moneyDeposit * 20) / 100)}");
+                
 
                 totalAmmount = moneyDeposit;
             }
