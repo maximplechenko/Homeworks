@@ -33,7 +33,7 @@ namespace Homework_Module_5
                 
             }
 
-            Console.WriteLine($"factorial result = {factorialResult}");
+            Console.WriteLine($"factorial  result = {factorialResult}");
             
 
             /*
